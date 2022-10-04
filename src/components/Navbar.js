@@ -17,13 +17,13 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/">Pricing</Link>
+          <Link to="/pricing">Pricing</Link>
         </li>
         <li>
-          <Link to="/">Training</Link>
+          <Link to="/training">Training</Link>
         </li>
         <li>
-          <Link to="/">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
